@@ -1,0 +1,18 @@
+
+POST http://localhost:5000/users/register
+Content-Type: "application/json"
+
+{
+  "email": "dheeraj11@gmail.com",
+  "password": "pwd3"
+}
+
+###
+
+POST http://localhost:5000/users/login
+Content-Type: "application/json"
+
+{
+  "email": "dheeraj10@gmail.com",
+  "password": "pwd123"
+}
